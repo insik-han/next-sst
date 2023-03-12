@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "dev:lambda": "sst env next dev",
+    "dev:lambda": "sst bind next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
